@@ -1,11 +1,10 @@
 import React from "react";
+import Appshell from "./Appshell";
 
 class App extends React.Component{
     render() {
         return(
-            <div>
-                <h3>Hello World</h3>
-            </div>
+            <Appshell/>
         )
     }
 }
